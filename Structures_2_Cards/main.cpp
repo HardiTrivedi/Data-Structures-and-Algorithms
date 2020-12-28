@@ -10,9 +10,9 @@ struct card
 };
 int main()
 {
-    struct card deck[52]; //deck of 52 cards - array
+    card deck[52]; //deck of 52 cards - array
     deck[0]={1,1,1}; //ace of red hearts
-    struct card c;
+    card c;
     c.shape=1;
     c.face=2;
     c.colour=1;

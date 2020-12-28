@@ -8,12 +8,12 @@ struct rectangle
 };
 int main()
 {
-    struct rectangle r;
+    rectangle r;
     r.length=10;
     r.breadth=5;
     cout<<"Area of rectangle r "<<r.length*r.breadth<<endl;
 
-    struct rectangle *p;
+    rectangle *p;
     p=&r;
     p->length=15;//changing length and breadth of r
     p->breadth=10;
